@@ -1,0 +1,35 @@
+.about_section {
+    padding: 125px 0;
+    position: relative;
+  }
+  
+  .about_section .section_number {
+    display: block;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    border-radius: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e1603a), to(#dc373d));
+    background: linear-gradient(to bottom, #e1603a, #dc373d);
+    right: 5%;
+    top: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  
+  .about_section .detail_box {
+    text-align: right;
+  }
+  
+  .about_section .detail_box p {
+    margin: 35px 0;
+  }
+  
+  .about_section .img-box img {
+    width: 100%;
+  }
